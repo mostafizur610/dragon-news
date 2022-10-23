@@ -14,7 +14,7 @@ export const routes = createBrowserRouter([
                 element: <Home></Home>
             },
             {
-                path: '/category',
+                path: '/category/:id',
                 element: <Category></Category>
             },
             {
