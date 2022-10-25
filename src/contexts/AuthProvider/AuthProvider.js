@@ -51,7 +51,7 @@ const AuthProvider = ({ children }) => {
         }
     }, [])
 
-    const authInfo = { user, loading, setLoading providerLogin, updateUserProfile, verifyEmail, createUser, signIn, logOut };
+    const authInfo = { user, loading, setLoading, providerLogin, updateUserProfile, verifyEmail, createUser, signIn, logOut };
 
     return (
         <div>
